@@ -1,12 +1,12 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
+    "name": "didiercraft-launcher-v2",
+    "preductname": "Didiercraft Launcher",
     "version": "4.0.0",
-    "description": "Conflictura modded server launcher",
+    "description": "Jouez à DidierCraft",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
-    "env": "azuriom",
-    "settings": "https://conflictura.eu",
+    "author": "Basile BARGIBANT, Riptiaz/Boulldogo/Vexato/Luuxis",
+    "env": "panel",
+    "settings": "https://bargicloud.alwaysdata.net",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
@@ -38,6 +38,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/MC-Modde-S7/CentralCorp-Launcher.git"
     }
 }
