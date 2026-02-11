@@ -270,7 +270,6 @@
 .settings-btn:hover {
     background: rgba(255, 255, 255, 0.12);
     color: var(--text-primary);
-    transform: rotate(60deg);
 }
 
 .icon-settings:before {
