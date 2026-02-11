@@ -1,8 +1,8 @@
 {
     "name": "didiercraft-launcher-v2",
-    "preductname": "Didiercraft Launcher",
+    "preductname": "DidierCraft Launcher",
     "version": "0.0.3",
-    "description": "Jouez à DidierCraft",
+    "description": "Jouer à Minecraft Moddé S7",
     "main": "src/app.js",
     "author": "Basile BARGIBANT, Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "panel",
