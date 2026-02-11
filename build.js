@@ -64,8 +64,8 @@ class Index {
                 generateUpdatesFilesForAllChannels: false,
                 appId: preductname,
                 productName: preductname,
-                copyright: 'Copyright © 2020-2025 Riptiaz',
-                artifactName: "${productName}-${os}-${arch}.${ext}",
+                copyright: 'Copyright © 2020-2026 Basile BARGIBANT',
+                artifactName: "${productName}-${os}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
@@ -84,7 +84,7 @@ class Index {
                 },
                 nsis: {
                     oneClick: true,
-                    allowToChangeInstallationDirectory: false,
+                    allowToChangeInstallationDirectory: true,
                     createDesktopShortcut: true,
                     runAfterFinish: true
                 },
@@ -94,10 +94,6 @@ class Index {
                     identity: null,
                     target: [{
                         target: "dmg",
-                        arch: "universal"
-                    },
-                    {
-                        target: "zip",
                         arch: "universal"
                     }]
                 },
