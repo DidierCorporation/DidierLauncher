@@ -1,17 +1,17 @@
 {
     "name": "didiercraft-launcher-v2",
     "preductname": "Didiercraft Launcher",
-    "version": "0.0.1",
+    "version": "2.0.0",
     "description": "Jouez à DidierCraft",
     "main": "src/app.js",
     "author": "Basile BARGIBANT, Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "panel",
-    "settings": "https://bargicloud.alwaysdata.net",
+    "settings": "https://cloud.dedica-marcq.com",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --ignore AppData/ --ignore node_modules/ --legacy-watch --exec npm start",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/CentralCorp/CentralCorp-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://didiercraft.alwaysdata.net/storage/img/launcherlogo.png"
     },
     "license": "CC0",
     "nodemonConfig": {
