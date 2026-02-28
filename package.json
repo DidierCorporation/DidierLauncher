@@ -1,7 +1,7 @@
 {
-    "name": "didiercraft-launcher-v2",
-    "preductname": "Didiercraft Launcher",
-    "version": "2.0.0",
+    "name": "didiercraft",
+    "preductname": "DidierCraft Launcher",
+    "version": "2.0.1",
     "description": "Jouez à DidierCraft",
     "main": "src/app.js",
     "author": "Basile BARGIBANT, Riptiaz/Boulldogo/Vexato/Luuxis",
